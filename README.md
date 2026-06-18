@@ -1,4 +1,4 @@
-# Rogue's Portfolio (プロジェクト名)
+# Rogue's Portfolio 
 
 自身のスキルや制作実績を紹介するための、Next.jsで構築したポートフォリオサイトです。
 
