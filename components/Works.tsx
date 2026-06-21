@@ -38,6 +38,7 @@ const Works = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  suppressHydrationWarning
                   className="block group relative overflow-hidden rounded-xl aspect-video bg-zinc-800 border border-zinc-700 transition-all hover:border-zinc-500"
                 >
                   <Image
