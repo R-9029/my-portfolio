@@ -37,13 +37,13 @@ const useProjects = () => {
     },
     {
       id: 3,
-      title: '短編ノベルゲーム',
-      description: 'インタラクティブなストーリー体験を提供する短編ノベルゲーム。選択肢によって物語が分岐し、プレイヤーの判断が物語の展開に影響を与えます。',
-      techStack: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
-      link: 'https://novel-game.vercel.app',
-      github: 'https://github.com/R-9029/novel-game',
-      thumbnail: '/images/novel-game/main.png',
-      isComingSoon: true,
+      title: '短編ノベル「忘れられない、雨の夜」',
+      description: '自作の短編ビジュアルノベルと、その作品紹介LPを制作しました。LPでは作品の世界観を意識したデザインに加え、ストーリー・キャラクター・ゲームシステムを紹介し、本編をプレイできる導線まで実装しています。',
+      techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+      link: 'https://short-visual-novel-lp.vercel.app/',
+      github: 'https://github.com/R-9029/short-visual-novel-lp',
+      thumbnail: '/images/visual-novel/novel-lp.png',
+      isComingSoon: false,
     },
   ], []);
 

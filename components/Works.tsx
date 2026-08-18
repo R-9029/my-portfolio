@@ -84,7 +84,6 @@ const Works = () => {
                   </span>
                 ) : (
                   <>
-
                     <a
                       href={project.github}
                       target="_blank"
@@ -94,10 +93,21 @@ const Works = () => {
                     >
                       GitHub
                     </a>
+
+                    {project.link !== project.github && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        suppressHydrationWarning
+                        className="px-4 py-2 text-sm font-medium rounded-lg bg-zinc-800 text-white hover:bg-zinc-700 border border-zinc-700 transition-colors"
+                      >
+                        View Site
+                      </a>
+                    )}
                   </>
                 )}
-              </div>
-            </div>
+              </div>            </div>
           </div>
         ))}
       </div>
